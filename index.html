@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asteroid Dodger</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game-wrap">
+    <canvas id="game" width="360" height="600"></canvas>
+
+    <div class="hud">
+      <div class="stat"><span>Score</span><strong id="score">0</strong></div>
+      <div class="stat"><span>Lives</span><strong id="lives">3</strong></div>
+    </div>
+
+    <div class="overlay" id="overlay">
+      <h1 id="title">Asteroid Dodger</h1>
+      <p id="subtitle">Move with ← → or A/D. On mobile, tap to move.</p>
+      <button id="startBtn">Start</button>
+    </div>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
